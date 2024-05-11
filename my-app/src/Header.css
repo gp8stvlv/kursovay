@@ -1,0 +1,42 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2C2D31;
+    color: white;
+}
+
+.bank-info {
+    display: flex;
+    align-items: center;
+}
+
+.bank-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 10px;
+}
+
+.logout-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
