@@ -14,18 +14,24 @@
 }
 
 .bank-logo {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+    margin-right: 100px;
 }
 
 .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2C2D31;
+    color: white;
     display: flex;
     align-items: center;
 }
 
 .user-name {
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
 .logout-button {

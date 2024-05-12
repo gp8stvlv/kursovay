@@ -1,12 +1,13 @@
 // Header.jsx
 import React from 'react';
 import './Header.css'; // Подключаем стили для заголовка
+import logoImage from './bankIcon.png';
 
 const Header = ({ bankName, userName, onLogin, onLogout }) => {
     return (
         <header className="header">
             <div className="bank-info">
-                <img src="/path/to/bank-logo.png" alt="Bank Logo" className="bank-logo" />
+                <img src={logoImage} alt="Bank Logo" className="bank-logo" />
                 <h1 className="bank-name">{bankName}</h1>
             </div>
             <div className="user-info">
